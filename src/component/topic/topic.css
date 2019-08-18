@@ -1,0 +1,34 @@
+.top__firstPoint__topic
+{
+  top: 14px;
+  left:60px;
+}
+.top__secondPoint__topic
+{
+  top: -35px;
+  left:-40px;
+}
+.top__thirdPoint__topic
+{
+  top: -35px;
+  left:-30px;
+}
+.top__fourthPoint__topic
+{
+  top: -35px;
+  left:-100px;
+}
+.top__firstPoint__topic,
+.top__secondPoint__topic,
+.top__thirdPoint__topic,
+.top__fourthPoint__topic
+{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+  color: #223498;
+  font-weight: 400;
+}

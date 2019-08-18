@@ -1,0 +1,26 @@
+.scroller{
+  left: 980px;
+  top: 350px;
+  height: 55px;
+  width: 15px;
+  position: fixed;
+  display: grid;
+  grid-template-rows: 13px 13px 13px;
+  grid-gap: 7px;
+}
+
+.pointOn{
+    background-color: rgb(222,138,49);
+transition: background-color 0.5s;
+}
+.pointOff{
+  background-color: white;
+transition: background-color 0.5s;
+}
+
+.pointOff,
+.pointOn
+{
+  border-radius: 50%;
+  size: 13px;
+}

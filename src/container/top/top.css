@@ -1,0 +1,52 @@
+.top{
+height: 768px;
+position: relative;
+}
+
+.top__Topic{
+position: absolute;
+font-stretch: ultra-condensed;
+color: #223498;
+width: 800px;
+font-style:normal;
+font-size: 55px;
+font-weight: 100;
+margin: 0;
+top: 123px;
+left: 70px;
+}
+
+.top__firstPoint{
+  height: 50px;
+  width: 200px;
+  left: 562px;
+  top: 265px;
+}
+.top__secondPoint{
+  height: 50px;
+  width: 200px;
+  left: 273px;
+  top: 425px;
+}
+.top__thirdPoint{
+  height: 50px;
+  width: 200px;
+  left: 820px;
+  top: 515px;
+}
+.top__fourthPoint{
+  height: 50px;
+  width: 200px;
+  left:486px;
+  top: 540px;
+}
+.top__firstPoint,
+.top__secondPoint,
+.top__thirdPoint,
+.top__fourthPoint
+{
+  position: absolute;
+  height: 50px;
+  width: 200px;
+  text-align: center;
+}

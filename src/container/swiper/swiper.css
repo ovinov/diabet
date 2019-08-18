@@ -1,0 +1,8 @@
+.switch{
+  margin: 0;
+  background-image: url(./background.png);
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}

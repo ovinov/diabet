@@ -1,0 +1,132 @@
+/*----------------------------------------------------------- */
+ /*first */
+/*----------------------------------------------------------- */
+
+.top__firstPoint__wrapper{
+height: 50px;
+width: 50px;
+}
+.top__firstPoint__animate,
+.top__firstPoint__wrapper:before,
+.top__firstPoint__wrapper:after{
+height: 26px;
+width: 26px;
+margin-left: 11px;
+margin-top: 11px;
+}
+
+/*----------------------------------------------------------- */
+ /*second */
+/*----------------------------------------------------------- */
+
+.top__secondPoint__wrapper{
+height: 25px;
+width: 25px;
+}
+.top__secondPoint__animate,
+.top__secondPoint__wrapper:before,
+.top__secondPoint__wrapper:after{
+height: 13px;
+width: 13px;
+margin-left: 5px;
+margin-top: 5px;
+}
+/*----------------------------------------------------------- */
+ /*third*/
+/*----------------------------------------------------------- */
+.top__thirdPoint__wrapper{
+height: 16px;
+width: 16px;
+}
+.top__thirdPoint__animate,
+.top__thirdPoint__wrapper:before,
+.top__thirdPoint__wrapper:after
+{
+height: 8px;
+width: 8px;
+margin-left: 3px;
+margin-top: 3px;
+}
+
+
+/*----------------------------------------------------------- */
+ /*united*/
+/*----------------------------------------------------------- */
+.top__firstPoint__animate,
+.top__firstPoint__wrapper:before,
+.top__firstPoint__wrapper:after,
+.top__secondPoint__animate,
+.top__secondPoint__wrapper:before,
+.top__secondPoint__wrapper:after,
+.top__thirdPoint__animate,
+.top__thirdPoint__wrapper:before,
+.top__thirdPoint__wrapper:after,
+.top__firstPoint__wrapper,
+.top__secondPoint__wrapper,
+.top__thirdPoint__wrapper
+{
+content: "";
+border-radius: 100%;
+border: 1px solid #b11b39;
+display: block;
+position: absolute;
+}
+.top__firstPoint__wrapper:before,
+.top__firstPoint__wrapper:after,
+.top__secondPoint__wrapper:before,
+.top__secondPoint__wrapper:after,
+.top__thirdPoint__wrapper:before,
+.top__thirdPoint__wrapper:after
+{
+  background-color: #de8a2f;
+ animation: pulse 1.5s linear infinite;
+  opacity: 0;
+  }
+.top__firstPoint__wrapper:after,
+.top__secondPoint__wrapper:after,
+.top__thirdPoint__wrappert:after
+  {
+    animation-delay: 0.5s;
+  }
+  .top__firstPoint__wrapper:before,
+  .top__secondPoint__wrapper:before,
+  .top__thirdPoint__wrapper:before
+  {
+    animation-delay: 1s;
+  }
+
+.top__firstPoint__animate,
+.top__secondPoint__animate,
+.top__thirdPoint__animate
+{
+      animation: pulseanimate 1.5s linear infinite;
+      background-color: #de8a2f;
+      opacity: 0.7;
+    }
+    @keyframes pulseanimate {
+      0%{
+        transform: scale(0.3);
+        opacity: 0.7;
+      }
+      99%{
+        opacity: 0.2;
+      }
+          100%{
+            opacity: 0;
+            transform: scale(2);
+          }
+    }
+    @keyframes pulse {
+      0%{
+
+        opacity: 0.7;
+        transform: scale(0.3);
+      }
+      99%{
+        opacity: 0.2;
+      }
+          100%{
+            opacity: 0;
+            transform: scale(1.8);
+          }
+    }

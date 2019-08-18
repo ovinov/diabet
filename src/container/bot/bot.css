@@ -1,0 +1,33 @@
+.bot{
+  position: relative;
+  height: 768px;
+   overflow:hidden;
+   color: white;
+   margin: 0;
+   padding: 0;
+}
+.bot__firstIce{
+  position: absolute;
+  top: 110px;
+  left: -15px;
+
+}
+.bot__secondIce{
+  position: absolute;
+  top: 200px;
+  left: 950px;
+
+}
+.bot__thirdIce{
+  position: absolute;
+  top:580px;
+  left: 130px;
+}
+.bot__topic{
+  position: absolute;
+  margin: 0;
+  color: white;
+  top: 110px;
+  left: 100px;
+  font-weight: 100;
+}

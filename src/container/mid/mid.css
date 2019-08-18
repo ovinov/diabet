@@ -1,0 +1,38 @@
+.mid__topic{
+  color: white;
+ font-stretch: ultra-condensed;
+  font-style: normal;
+  position: absolute;
+  top: 270px;
+  left: 240px;
+  font-size: 55px;
+  font-weight: 300;
+  text-align: center;
+  width: 500px;
+  margin: 0;
+}
+.mid{
+  height: 768px;
+ position: relative;
+ overflow:hidden;
+}
+.mid__firstIce{
+  position: absolute;
+  left: 875px;
+  transition: top 0.7s;
+}
+.mid__secondIce{
+  position: absolute;
+  left: 80px;
+  transition: top 0.7s;
+}
+.mid__thirdIce{
+  position: absolute;
+  left: 230px;
+  transition: top 0.7s;
+}
+.mid__fourthIce{
+  position: absolute;
+  left: 712px;
+  transition: top 0.7s;
+}
