@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/diabet/static/css/main.cd45d06e.chunk.css",
+    "main.js": "/diabet/static/js/main.ca971467.chunk.js",
+    "main.js.map": "/diabet/static/js/main.ca971467.chunk.js.map",
+    "runtime~main.js": "/diabet/static/js/runtime~main.d4ffa131.js",
+    "runtime~main.js.map": "/diabet/static/js/runtime~main.d4ffa131.js.map",
+    "static/js/2.65aa1cca.chunk.js": "/diabet/static/js/2.65aa1cca.chunk.js",
+    "static/js/2.65aa1cca.chunk.js.map": "/diabet/static/js/2.65aa1cca.chunk.js.map",
+    "index.html": "/diabet/index.html",
+    "precache-manifest.5d5223f441eed991bde09d60ef55ddb9.js": "/diabet/precache-manifest.5d5223f441eed991bde09d60ef55ddb9.js",
+    "service-worker.js": "/diabet/service-worker.js",
+    "static/css/main.cd45d06e.chunk.css.map": "/diabet/static/css/main.cd45d06e.chunk.css.map",
+    "static/media/swiper.css": "/diabet/static/media/background.cebc704a.png",
+    "static/media/ice1.png": "/diabet/static/media/ice1.be75dbe6.png",
+    "static/media/ref.png": "/diabet/static/media/ref.8212b9de.png"
+  }
+}
